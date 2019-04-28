@@ -1,0 +1,1094 @@
+@charset"utf-8";
+.guanjia-content{
+    background-color: #faf8f6;
+    padding-bottom: 80px;
+}
+.content p{
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top:50px;
+    color: #9e734c;
+}
+/*.content p:hover{*/
+    /*color:#9e734c;*/
+/*}*/
+.content{
+    margin-bottom: 50px;
+}
+.guanjia-content .content>img{
+    max-width: 100%;
+}
+/*.image div{*/
+    /*overflow: hidden;*/
+/*}*/
+/*.image img{*/
+    /*width:100%;*/
+    /*transition: all 0.3s linear;*/
+    /*-webkit-transition: all 0.3s linear;*/
+/*}*/
+/*.image img:hover{*/
+    /*transform: scale(1.05);*/
+    /*-webkit-transition: all 0.3s linear;*/
+/*}*/
+/*.image>div:first-child{*/
+    /*margin-right: 30px;*/
+/*}*/
+/*.second-img{*/
+   /*margin-bottom: 12px;*/
+/*}*/
+/*.image-left{*/
+    /*width:60%;*/
+/*}*/
+/*.image-right{*/
+    /*width:37%;*/
+/*}*/
+/*.image{*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+/*}*/
+
+/*团队介绍css*/
+.gjtd{
+    left:38%;
+}
+.jieshao{
+    width:90%;
+    margin:0 auto;
+}
+.jieshao div{
+    float: left;
+}
+.jieshao>div:first-child{
+    margin-right:30px;
+}
+
+/*笑傲斯麦-门诊介绍css*/
+.biaoti{
+    top:50%;
+    left:35%;
+}
+.xasm{
+    top:55%;
+    left:45%;
+}
+.menzhen{
+    padding-top:45px;
+    width:80%;
+    display: flex;
+    justify-content: flex-start;
+    height:100px;
+}
+.menzhen div:first-child{
+    width:30%;
+}
+.menzhen div:first-child h1 {
+    margin-top: 7px;
+}
+.menzhen div:last-child{
+    width:20%;
+    padding-left: 20px;
+}
+/*门诊介绍--3个小图标*/
+.menzhen-image img{
+    background-color: #faf8f6;
+}
+.menzhen-image{
+    width:80%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 35px;
+}
+.menzhen-image>div>div{
+    margin: 0 20px 0 10px;
+}
+.menzhen-bg-image{
+    width:100%;
+}
+.menzhen-bg-image div{
+    width: 100%;
+    text-align: center;
+}
+.menzhen-bg-image img{
+    max-width:100%;
+}
+/*笑傲斯麦-企业文化css*/
+.ywbk{
+    padding-top:50px;
+}
+.ywbk .main-h{
+    color: #ffffff;
+}
+.ywbk{
+    /*background: url('../images/index/ywbk.jpg') no-repeat;*/
+    background-position: center 0;
+    background-size: cover;
+}
+.yw-con{
+    width: 100%;
+}
+.yw-con ul{
+    overflow: hidden;
+}
+.yw-con ul li{
+    width: 50%;
+    float: left;
+    position: relative;
+    box-sizing:border-box;
+    overflow: hidden;
+    transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+}
+.yw-con ul li img{
+    width:100%;
+}
+.yw-con ul li span{
+    display: block;
+    width: 222px;
+    margin: 0 auto;
+}
+.yw-con ul li h2{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top:45%;
+    transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+}
+.yw-con ul li h2 span:first-child{
+    font-size: 18px;
+    color: #9e734c;
+}
+.yw-con ul li h2 span:last-child{
+    font-size: 20px;
+    color: white;
+}
+.yw-mb{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    display: none;
+}
+.biankuang{
+    position: absolute;
+    top: 30px; bottom: 0; left: 0; right: 0;
+    width:85%;
+    height:85%;
+    /*background-color: black;*/
+    margin:0 auto;
+    /*display: none;*/
+    border:1px solid white;
+}
+.yw-txt{
+    position: absolute;
+    top:100%;
+    margin: 0 20px;
+    transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+}
+.hengxian{
+    position: relative;
+    left: 20px;
+    width:40px;
+    height:2px;
+    margin:10px auto 40px;
+    border:1px solid white;
+    background-color: white;
+}
+.yw-txt p{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: center;
+}
+.yw-an{
+    position: absolute;
+    width: 100%;
+    top:100%;
+    transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+}
+.yw-an a{
+    display: block;
+    width: 94px;
+    margin: 0 auto;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    background: rgba(0,0,0,0.3);
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 32px;
+    height: 32px;
+    text-align: center;
+}
+/*.yw-con ul li:first-child{ border-bottom: 2px solid #178cce;}*/
+/*.yw-con ul li:nth-child(2){ border-bottom: 2px solid #1ed5b7;}*/
+/*.yw-con ul li:nth-child(3){ border-bottom: 2px solid #fed387;}*/
+/*.yw-con ul li:nth-child(4){ border-bottom: 2px solid #eb6451;}*/
+/*.yw-con ul li:last-child{ border-bottom: 2px solid #cb86c5;}*/
+.yw-con ul li:first-child .yw-mb{background: rgba(179,148,120,0.7); }
+/*.yw-con ul li:nth-child(2) .yw-mb{ background: rgba(30,213,183,0.7);}*/
+/*.yw-con ul li:nth-child(3) .yw-mb{background: rgba(254,211,135,0.7);}*/
+/*.yw-con ul li:nth-child(4) .yw-mb{ background: rgba(235,100,81,0.7);}*/
+.yw-con ul li:last-child .yw-mb{background: rgba(179,148,120,0.7); }
+/*.yw-con ul li:hover {*/
+    /*border-bottom: 0;*/
+/*}*/
+.yw-con ul li:hover .yw-txt{
+    top:110px;
+    transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+}
+.yw-con ul li:hover h2{
+    top:56px;
+    transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+}
+.yw-con ul li:hover h2 span:first-child{
+    color:white;
+    transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+}
+.yw-con ul li:hover .yw-an{
+    top: 320px;
+    transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+}
+.yw-con ul li:hover .yw-mb{
+    display: block;
+    transition: 0.3s all linear;
+    -moz-transition: 0.3s all linear;
+    -webkit-transition: 0.3s all linear;
+}
+
+/*特色医疗css*/
+.tsyl{
+    height: 72px;
+}
+.tsyl ul{
+    width:60%;
+    height:100%;
+    margin:0 auto;
+}
+.tsyl ul:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.tsyl ul li{
+    width:14%;
+    height:100%;
+    float: left;
+}
+.tsyl ul li.active .dikuang{
+    border-bottom:2px solid #aa825f;
+}
+.dikuang i{
+    font-size: 30px;
+    color:#beae7c;
+}
+.dikuang{
+    width:60%;
+    margin:0 auto;
+    padding-bottom: 10px;
+}
+.dikuang p:nth-child(2){
+    z-index: 10;
+    font-size: 12px;
+    color:#8a8887;
+}
+.tsyl ul li:hover .dikuang{
+    border-bottom:2px solid #aa825f;
+}
+.gaodu{
+    height:36px;
+}
+.tsyl-title{
+    padding-top:50px;
+}
+.tsyl-title{
+    text-align: center;
+    color: #956337;
+}
+.tsyl-title h1{
+    font-size: 40px;
+}
+.tsyl-title p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tsyl-jianjie{
+    width: 100%;
+    /* height: 500px; */
+    margin: 30px 0;
+    display: table;
+}
+.tsyl-jianjie:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.tsyl-jianjie>div{
+    /*float: left;*/
+}
+.tsyl-left{
+    padding:25px;
+    background-color: white;
+}
+.tsyl-jianjie .tsyl-left,.tsyl-jianjie .tsyl-right,.tsyl-tedian-left,.tsyl-tedian-right{
+    width: 50%;
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+}
+.tsyl-jianjie>.tsyl-left div{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+}
+.tsyl-left>div:first-child,.tsyl-tedian-left>div:first-child{
+    overflow: hidden;
+}
+.tsyl-jianjie>.tsyl-left div img{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+.tsyl-tedian-left div img{
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+.tsyl-left>div img:hover{
+    transform: scale(1.05);
+    -webkit-transition: all 0.3s linear;
+}
+.tsyl-tedian-left>div img:hover{
+    transform: scale(1.05);
+    -webkit-transition: all 0.3s linear;
+}
+.tsyl-right>div,.tsyl-detail{
+    width:80%;
+    padding-left: 0;
+    margin:0 40px;
+}
+.tsyl-right{
+    padding:30px 0;
+}
+.tsyl-tedian-left>div img{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+.tsyl-detail{
+    margin-top:45px;
+    font-size: 16px !important;
+}
+.bt{
+    width: 100% !important;
+    margin:0 auto;
+    padding-left: 0 !important;
+}
+.tsyl-tedian-right{
+    padding:30px 0;
+    background-color: white;
+}
+.tsyl-tedian-left>div{
+    width:100%;
+}
+.tsyl-tedian-detail {
+    width: 85%;
+    padding-left: 0;
+    margin: 0 40px;
+    font-size: 16px !important;
+    margin-top:40px;
+    max-height:400px !important;
+    overflow: hidden;
+}
+.tdbt{
+    margin-bottom: 10px;
+}
+.last-title{
+    margin-top:60px;
+}
+.xgal{
+    width:100%;
+    margin-top:40px;
+}
+.xgal>div{
+    width:32.5%;
+    float: left;
+    background-color: white;
+    padding:10px;
+}
+.xgal:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.xgal div:first-child,.xgal div:nth-child(2){
+    margin-right: 10px;
+}
+.xgal div img{
+    width:100%;
+}
+.title1,.title2,.title3{
+    display: block;
+    padding:10px 0;
+}
+.title1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.title2{
+    color:#8dadca;
+    font-weight: bold;
+    font-size: 16px;
+}
+.title3{
+    font-size: 14px;
+    color: #8d8c8c;
+    height:70px;
+    overflow: hidden;
+}
+a:hover{
+    color:#b2b2b2;
+}
+.cases{
+    width:100%;
+    overflow: hidden;
+}
+.cases img{
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+.cases img:hover{
+    transform: scale(1.05);
+    -webkit-transition: all 0.3s linear;
+}
+/*就医指南-门诊挂号信息css*/
+.zn{
+    left:40%;
+}
+.mzgh:before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.mzgh{
+    padding:30px 0;
+}
+.mzgh-content{
+    width:100%;
+    background-color: white;
+    padding:10px;
+}
+.mzgh-detail{
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    border:1px solid #f2f2f2;
+}
+/*第一行*/
+.mzgh-detail-line1{
+    width:100%;
+    border-bottom:1px solid #f2f2f2;
+    font-size: 16px;
+    display: table;
+}
+.mzgh-detail-line1:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*.mzgh-detail-line1>div{*/
+    /*float: left;*/
+/*}*/
+.line1-left{
+    width:20%;
+    height:100%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    /*padding: 45px 30px;*/
+}
+.line1-left img{
+    width:40%;
+}
+.line1-left div{
+    width: 94px;
+    height: 94px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 25px 10px;
+}
+.line1-left .chaxun1{
+    background-color: #419bcf;
+}
+.line1-left .chaxun2{
+    background-color: #12a2a2;
+}
+.line1-left .chaxun3{
+    background-color: #008ca5;
+}
+.line1-left .chaxun4{
+    background-color: #0774b7;
+}
+.line1-right{
+    display: table-cell;
+    width:80%;
+    padding:30px;
+    border-left:1px solid #f2f2f2;
+}
+.line1-right p{
+    margin:10px 0;
+}
+.mzgh-detail-line4{
+    border-bottom: 0;
+}
+.phone{
+    color:#0774b7;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.zt:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.zt p{
+    float: left;
+    text-align: center;
+}
+.ways{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+.zt p:first-child{
+    margin-right:15px;
+}
+.dianhua{
+    height:100%;
+}
+
+/*就医指南*/
+.zxcx{
+    width:60%;
+    margin:0 auto;
+}
+.zxcx>div:first-child{
+    display: flex;
+    justify-content: center;
+}
+.zxcx>div:first-child>span{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-top:50px;
+    border:1px solid #9e734c;
+    border-radius: 5px;
+    padding:10px 15px;
+}
+.zxcx>div:first-child>span:first-child{
+    margin-right:50px;
+}
+.zxcx>div:first-child>span a{
+    color:#9e734c;
+}
+.zxcx>div:first-child>span.active{
+    background-color: #9e734c;
+}
+.zxcx>div:first-child>span.active a{
+    color:white;
+}
+.wzjieshao{
+    font-size: 16px;
+    text-align: center;
+    padding:35px 0;
+}
+.srk{
+    width:60%;
+    margin: 0 auto;
+}
+.check{
+    display: flex;
+    justify-content: center;
+}
+.check a{
+    width:150px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+    line-height: 20px;
+    margin-top:50px;
+    border:1px solid #9e734c;
+    border-radius: 5px;
+    padding:10px 15px;
+    background-color: #9e734c;
+    margin-bottom: 50px;
+}
+::-webkit-input-placeholder{/*Webkit browsers*/
+    color:black;
+    font-size:16px;;
+}
+:-moz-placeholder{/*Mozilla Firefox 4 to 8*/
+    color:black;
+    font-size:16px;
+}
+.yzm{
+    display: flex;
+    justify-content: flex-start;
+}
+.yzm img{
+    width:33%;
+    margin-left: 5px;
+}
+
+/*联系我们css*/
+.js{
+    margin-top:55px;
+    text-indent: 2em;
+}
+.gywm{
+    left:45%;
+}
+.lxwm div{
+    padding-left: 0;
+    margin-bottom: 55px;
+}
+.lxwm-content{
+    margin-top:60px;
+    margin-left: 100px;
+}
+.lxwm-detail>div{
+    width:100% !important;
+}
+.lxwm-detail h2{
+    font-size: 18px;
+    font-weight: bold;
+    color:#9e734c;
+    margin-bottom: 10px;
+}
+.lxwm-detail h1{
+    font-size: 14px;
+}
+.huisuo:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.huisuo>div{
+    width:30%;
+    height:200px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.huisuo>div:first-child{
+    margin-left: 250px;
+}
+.huisuo>div,.huisuo>div:last-child>div{
+    float: left;
+}
+.huisuo>div:first-child h1{
+    font-size: 25px;
+    color:#333333;
+}
+.aa{
+    display: block;
+    width:20px;
+    height:10px;
+    background-color: #019cde;
+    margin-bottom: 15px;
+}
+.contact{
+    font-size: 14px;
+}
+.huisuo>div:last-child{
+    padding:30px 50px;
+    display: table-cell;
+}
+.huisuo>div:last-child>div{
+    text-align: center;
+    vertical-align: middle;
+}
+.tt{
+    margin-top:10px;
+    font-size: 14px;
+}
+.ff{
+    width:50%;
+}
+/*地图*/
+#map{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+/*响应式*/
+@media screen and (min-width:1200px){
+    .menzhen>div:first-child{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:1200px) {
+    .main-md{
+        width:1024px;
+        margin: auto;
+    }
+    .tsyl ul {
+        width: 75%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .main-md {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .biaoti {
+        top: 60%;
+        left: 40%;
+    }
+    .fu_btn span a {
+        padding: 0 0;
+    }
+    .tsyl ul {
+        width: 100%;
+    }
+    /*.fu_bg {*/
+        /*height:30px;*/
+    /*}*/
+    .tsyl-right>div, .tsyl-detail {
+        width: 98%;
+        padding-left: 0;
+        margin: 0 5px;
+    }
+    .tsyl-tedian-detail {
+        width: 98%;
+        padding-left: 0;
+        margin: 0 5px;
+        margin-top: 0;
+    }
+    .xgal>div {
+        width: 31.5%;
+    }
+    .lxwm div {
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+    .lxwm-content {
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner-wz {
+        top: 52%;
+    }
+    .biaoti{
+        left:25%;
+    }
+    .xasm{
+        left:42%;
+    }
+    .gjtd {
+        left: 35%;
+    }
+    .menzhen-image{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .menzhen-image>div>div{
+        margin: 0;
+    }
+    .menzhen{
+        width:100%;
+    }
+    .menzhen div:first-child{
+        width:50%;
+    }
+    .menzhen div:last-child{
+        width:45%;
+    }
+    .menzhen{
+        display: flex;
+        justify-content: center;
+    }
+    .im_pc{
+        height:100%;
+    }
+    /*.fu_btn{*/
+        /*height:45px;*/
+    /*}*/
+    .content p{
+        font-size: 14px;
+        padding-top:10px;
+    }
+    .image{
+        flex-wrap: wrap;
+    }
+    .image>div:first-child {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .image-left,.image-right{
+        width:100%;
+    }
+    .guanjia-content {
+        padding-bottom: 25px;
+    }
+    /*团队介绍*/
+    .jieshao{
+        width:100%;
+    }
+    .jieshao>div:first-child {
+        margin-right: 0;
+    }
+    .tp{
+        width:100%;
+        padding-bottom: 20px;
+    }
+    .jieshao div img{
+        width:100%;
+    }
+    /*企业文化*/
+    .yw-con ul li{
+        width:100% ;
+        height:200px;
+    }
+    .yw-con ul li h2 span:first-child{
+        font-size: 18px;
+    }
+    .yw-con ul li h2 span:last-child{
+        font-size: 16px;
+    }
+    .hengxian{
+        margin-top:5px;
+        margin-bottom: 5px;
+        left: 0;
+    }
+    .yw-txt p{
+        width: 80%;
+    }
+    .biankuang{
+        top:15px;
+    }
+    .yw-con ul li{
+        margin-bottom: 10px;
+    }
+    .yw-con ul li h2 {
+        top: 40%;
+    }
+    .yw-con ul li img{
+        height:200px;
+    }
+    .yw-con ul li:hover h2 {
+        top: 30px;
+    }
+    .yw-con ul li:hover .yw-txt {
+        top: 80px;
+    }
+    /*特色医疗响应式*/
+    .tsyl{
+        overflow: scroll;
+    }
+    .tsyl ul {
+        /*float: left;*/
+        width: 520px;
+    }
+    .dikuang{
+        width:100%;
+    }
+    .dikuang img {
+        width: 45%;
+    }
+    .gaodu {
+         height: auto;
+    }
+    .tsyl-jianjie .tsyl-left div img,.tsyl-tedian-right div img {
+        height: auto;
+    }
+    .tsyl-jianjie {
+         margin: 0;
+    }
+    .tsyl-title {
+        padding: 20px;
+    }
+    .xgal {
+         margin-top: 0;
+    }
+    .tsyl-title h1 {
+        font-size: 30px;
+    }
+    .tsyl-left {
+         padding: 0;
+         background-color: #faf8f6;
+    }
+    .tsyl-right {
+         padding: 0;
+    }
+    .tsyl-right>div, .tsyl-detail {
+         margin: 0;
+    }
+    .tsyl-detail {
+        margin-top: 20px;
+    }
+    .tsyl-tedian-left {
+         padding:0;
+         background-color: #faf8f6;
+    }
+    .tsyl-jianjie .tsyl-left, .tsyl-jianjie .tsyl-right, .tsyl-tedian-left, .tsyl-tedian-right {
+        width: 100%;
+    }
+    .tsyl-tedian-detail {
+         margin: 0;
+         margin-top: 0;
+    }
+    .tsyl-tedian-right div img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .xgal>div {
+        width: 100%;
+        float: left;
+        background-color: white;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .tsyl-detail,.tsyl-tedian-detail {
+        font-size: 14px !important;
+    }
+    /*在线查询css*/
+    .zxcx {
+        width: 100%;
+    }
+    .zxcx>div:first-child>span {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .wzjieshao {
+        font-size: 14px;
+    }
+    .check a {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .srk{
+        width:100%;
+    }
+    /*门诊挂号信息*/
+    .zn{
+        top:50%;
+        left:35%;
+    }
+    .line1-left {
+        width: 30%;
+         padding: 0;
+    }
+    .mzgh-detail-line1 {
+        font-size: 12px;
+    }
+    .line1-right {
+        width: 100%;
+         padding: 0 10px;
+    }
+    .dianhua{
+        width:10%;
+    }
+    .mzgh{
+        padding:10px;
+    }
+    .mzgh-content {
+        padding: 5px;
+    }
+    .line1-left img {
+        width: 50%;
+    }
+
+    /*关于我们*/
+    .gywm{
+        top:50%;
+        left:40%;
+    }
+    .js{
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+    .tsyl-jianjie .tsyl-left div {
+        margin-bottom: 15px;
+    }
+    .lxwm ,.lxwm div {
+        margin-bottom: 15px;
+    }
+    .lxwm div {
+        margin-bottom: 15px;
+    }
+    .lxwm-content {
+         margin-top: 0;
+        margin-left: 0;
+    }
+    .lxfs h1{
+        font-size: 20px;
+    }
+    .huisuo>div:first-child h1 {
+        font-size: 17px;
+    }
+    .huisuo>div:first-child {
+         margin-left: 0;
+    }
+    .huisuo>div {
+        width: 100%;
+        height:auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .aa{
+        display: none;
+    }
+    .zz h1,.zz h2{
+        font-size: 25px;
+    }
+    #map {
+        height: 300px;
+        margin-bottom: 0;
+    }
+    .lxfs p{
+        font-size: 20px;
+    }
+    .tsyl-title p {
+        font-size: 23px;
+    }
+    .tsyl-jianjie .tsyl-left, .tsyl-jianjie .tsyl-right, .tsyl-tedian-left, .tsyl-tedian-right {
+        display: block;
+    }
+    .line1-left div {
+        width: 70px;
+        height: 70px;
+        padding: 17px 10px;
+    }
+}
+

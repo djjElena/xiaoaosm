@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="no-siteapp"><!-- 百度不转码 -->
+  <meta http-equiv="Cache-control" content="no-cache"> <!-- 不缓存 -->
+  <meta content="telephone=no" name="format-detection"> <!-- 禁止手机自动将网页中的电话号码显示为拨号的超链接 -->
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><!-- "苹果手机专用"的改变顶部状态条的颜色 -->
+  <meta content="yes" name="apple-mobile-web-app-capable"><!-- 开启对 web app 程序的支持 -->
+  <meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport"><!-- 不允许缩放的1:1显示 -->
+  <meta name="mobile-agent" content="format=html5;url=http://m.moerlong.com/"><!-- 自主适配，仅在百度移动搜索中有效 -->
+  <meta name="applicable-device" content="mobile"><!-- 只适合在移动设备上进行浏览 -->
+  <meta name="keywords" content="">
+  <meta name="robots" content="index,follow"> <!-- 定义搜索引擎索引方式 -->
+  <meta name="format-detection" content="telphone=no, email=no"/>
+  <title></title>
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_911409_2ubo7pwpf3e.css"/>
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/headfoot.css">
+  <link rel="stylesheet" href="css/h.css">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/swiper-3.4.2.min.js"></script>
+
+     <style>
+         .yiyue{
+             float: right;
+             margin-top: 2px;
+             display: inline-block;
+             margin-left: 5px;
+         }
+         .biaoqian.switch {
+             background-position: -9px -452px;
+         }
+         .biaoqian {
+             float: right;
+             margin-top:2px;
+             display: inline-block;
+             width: 41px;
+             height: 16px;
+             border-radius: 6px;
+             cursor: pointer;
+             position: relative;
+             background: url(images/admin-icon.png) no-repeat -9px -477px;
+             vertical-align: middle;
+         }
+         .biaoqian .circle {
+             width: 14px;
+             height: 14px;
+             transition: .4s;
+             cursor: pointer;
+             position: absolute;
+             top: 2px;
+             left: 3px;
+             background: url(images/admin-icon.png) no-repeat -74px -454px;
+         }
+         .switch .circle {
+             -webkit-transform: translateX(100%);
+             transform: translateX(100%);
+             background-position: -73px -453px;
+             top: 1px;
+             left: 12px;
+         }
+     </style>
+ </head>
+ <body>
+   <!--个人中心-->
+   <header>
+     <a href="#" class="lf"><i class="iconfont icon-jiantou3"></i></a>
+     <h1>预约排班
+         <!--<i class="iconfont icon-sanjiao" id="sj"></i>-->
+     </h1>
+     <!--<div class="aaa">-->
+         <!--<div class="yj-detail">-->
+             <!--<span>筛选</span><i></i>-->
+             <!--<div>-->
+                 <!--<p class="active">全部</p>-->
+                 <!--<p>近三个月</p>-->
+                 <!--<p>按月显示</p>-->
+             <!--</div>-->
+         <!--</div>-->
+     <!--</div>-->
+   </header>
+   <div>
+       <div class="title_list limit">
+           <span>2018-12-12</span>
+           <!--<p>收入 ￥4,000.00</p>-->
+       </div>
+       <div class="paiban">
+           <ul>
+               <li>
+                   <div>
+                       <span>1</span>
+                       <a href="#"><span>00:00-01:00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+
+                   </div>
+               </li>
+               <li>
+                   <div>
+                       <span>2</span>
+                       <a href="#"><span>01: 00-02: 00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                   <div>
+                       <span>3</span>
+                       <a href="#"><span>02: 00-03: 00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                   <div>
+                       <span>4</span>
+                       <a href="#"><span>03: 00-04: 00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                   <div>
+                       <span>5</span>
+                       <a href="#"><span>04: 00-05: 00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                   <div>
+                       <span>6</span>
+                       <a href="#"><span>05: 00-06: 00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                   <div>
+                       <span>7</span>
+                       <a href="#"><span>06: 00-07: 00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                   <div>
+                       <span>1</span>
+                       <a href="#"><span>07: 00-08: 00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                   <div>
+                       <span>2</span>
+                       <a href="#"><span>08: 00-09: 00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+                   </div>
+               </li>
+               <li>
+                   <div>
+                       <span>3</span>
+                       <a href="#"><span>09: 00-10: 00</span></a>
+                       <div class="yiyue">已约</div>
+                       <div class="biaoqian switch" bid="58" sort="ifhot">
+                           <div class="circle"></div>
+                       </div>
+                   </div>
+               </li>
+           </ul>
+       </div>
+   </div>
+
+ </body>
+ <script>
+$(function(){
+
+    $('#sj').click(function(e){
+//        var _con = $('.yj-detail');   // 设置目标区域
+//        if(!_con.is(e.target) && _con.has(e.target).length === 0){
+//            $('#sj').addClass('active');
+        $('.aaa').toggle(500);
+//        }
+    });
+    $('.yj-detail>div p').click(function () {
+        $(this).addClass('active')
+                .siblings().removeClass('active');
+    })
+})
+
+$(function () {
+
+    //开关
+    $(".biaoqian").click(function () {
+        bid=$(this).attr("bid");
+        sort=$(this).attr("sort");
+        if($(this).hasClass("switch")){ //关闭
+            v=1;
+        }else{//打开
+            v=0;
+        }
+
+        if(sort=="ifhot"){
+            $.ajax({
+                type:"post",
+                url:"?c=i&a=ajax_set_ifhot",
+                dataType:"json",
+                data:{"ifhot":v,"id":bid }
+            });
+
+        }
+        if(sort=="ifhidden"){
+
+            $.ajax({
+                type:"post",
+                url:"?c=i&a=ajax_set_ifhidden",
+                dataType:"json",
+                data:{"ifhidden":v,"id":bid}
+            });
+
+        }
+        $(this).toggleClass("switch")
+    })
+})
+ </script>
+</html>

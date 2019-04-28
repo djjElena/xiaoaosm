@@ -1,0 +1,195 @@
+.jr-xz .jr-title  p{
+    font-size: 18px;
+    color: #E60011;
+    line-height: 40px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+.jr-xz .jr-text{
+    padding:35px 10px 0px 10px;
+}
+.jr-xz .jr-text b{
+    font-size: 14px;
+    line-height: 30px;
+}
+.jr-xz .jr-text p{
+    font-size:14px;
+    color:#8D8D8D;
+    line-height: 30px;
+    margin-left:0;
+}
+.jr-xz form{
+    padding: 30px 10px;
+}
+.jr-xz form input[type=checkbox]{
+    margin-right: 10px;
+}
+.jr-xz form span{
+    color:#E60011;
+}
+.jr-xz  button{
+    display: block;
+    margin: 60px auto 20px;
+    width:160px;
+    height:45px;
+    background:#E60011 ;
+    color:#fff;
+    border:none;
+    font-size:18px;
+}
+.jr-form{
+    width:100%;
+}
+.jr-form form .w-fm{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 7px;
+}
+.w-lf{
+    width:100%;
+    float: left;
+}
+.w-rt{
+    width:100%;
+    float: left;
+}
+.w-rt textarea{
+    width: 100%;
+    height: 100px;
+}
+.jr-form form input{
+    width:100%;
+    height:35px;
+    line-height: 35px;
+    border: 1px solid #888;
+}
+.w-rt label{
+    color: #888;
+    vertical-align: middle;
+    margin: 6px 0 6px 0;
+    font-weight: normal;
+}
+.jr-form form b{
+    font-weight: normal;
+    display: block;
+    text-align:left;
+    height: 30px;
+    line-height: 30px;
+}
+.jr-form form i{
+    position: relative;
+    top:5px;
+    font-style: normal;
+    color: #e43;
+    font-size: 20px;
+}
+.jr-form form span{
+    display: inline-block;
+    font-size: 14px;
+    color:#363636;
+    font-family: "?????¡°";
+}
+.jr-form form span img{
+    width:95px;
+}
+.jr-form form input[type=radio]{
+    width:12px;
+    margin:13px 5px;
+    height:12px;
+}
+.jr-form form input[type=text]{
+    padding-left: 8px;
+}
+.jr-xz  .btn-tjsq{
+    background-color:#E60011;
+}
+.w-rt select {
+    height: 36px;
+    color: #888;
+    border: 1px solid #888;
+    width: 100px;
+}
+.jr-form form .scimg {
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    background: #eee;
+    color: #777777;
+    display: inline-block;
+    text-align: center;
+    line-height: 27px;
+    border: 1px solid #cccccc;
+}
+.btn-tjsq{
+    display: block;
+    margin-top: 20px;
+    width:100%;
+    height:45px;
+    background: #E60011;
+    color:#fff;
+    border:none;
+    font-size:18px;
+    text-align: center;
+}
+.jr-form-next {
+    padding-left: 20px;
+
+}
+.jr-form form  .jr-form-next b{
+    text-align: left;
+    color: #9999B2;
+    font-weight: bold;
+    font-size: 12px;
+}
+.jr-form form  .jr-form-next p{
+    color: #666;
+    font-size: 12px;
+    font-family: "?????¡°";
+    line-height: 20px;
+}
+.w-rt{
+    position: relative;
+}
+.w-rt p{
+    font-size: 14px;
+    color: #363636;
+    font-family: "ËÎÌå";
+    line-height: 30px;
+}
+.jr-tj{
+    padding: 0 10px;
+}
+.jr-success{
+    border: 1px solid #ddd;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+}
+.jr-success .jr-success-top{
+    width:100%;
+    height: 40px;
+    background: #eee;
+    padding-left: 20px;
+}
+.jr-success .jr-success-top h2{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+.jr-success .jr-success-bottom{
+    border-top: none;
+}
+.jr-success .jr-success-bottom img{
+    width:100px;
+    margin:18px;
+}
+.jr-success .jr-success-bottom p{
+    position: relative;
+    top: -90px;
+    left: 158px;
+}
+.jr-tj {
+    margin-top: 30px;
+    min-height: 600px;
+    position: relative;
+}

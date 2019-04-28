@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="no-siteapp"><!-- 百度不转码 -->
+  <meta http-equiv="Cache-control" content="no-cache"> <!-- 不缓存 -->
+  <meta content="telephone=no" name="format-detection"> <!-- 禁止手机自动将网页中的电话号码显示为拨号的超链接 -->
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><!-- "苹果手机专用"的改变顶部状态条的颜色 -->
+  <meta content="yes" name="apple-mobile-web-app-capable"><!-- 开启对 web app 程序的支持 -->
+  <meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport"><!-- 不允许缩放的1:1显示 -->
+  <meta name="mobile-agent" content="format=html5;url=http://m.moerlong.com/"><!-- 自主适配，仅在百度移动搜索中有效 -->
+  <meta name="applicable-device" content="mobile"><!-- 只适合在移动设备上进行浏览 -->
+  <meta name="keywords" content="">
+  <meta name="robots" content="index,follow"> <!-- 定义搜索引擎索引方式 -->
+  <meta name="format-detection" content="telphone=no, email=no"/>
+  <title></title>
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_911409_2ubo7pwpf3e.css"/>
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/headfoot.css">
+  <link rel="stylesheet" href="css/h.css">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/swiper-3.4.2.min.js"></script>
+ </head>
+ <body>
+   <!--个人中心-->
+   <header>
+       <a href="#" class="lf"><i class="iconfont icon-jiantou3"></i></a>
+       <h1>客户统计<i class="iconfont icon-sanjiao" id="sj"></i></h1>
+       <div class="aaa">
+           <div class="yj-detail khtj">
+               <span>客户分类</span><i></i>
+               <div>
+                   <p class="active">金卡VIP</p>
+                   <p>银卡VIP</p>
+                   <p>白卡VIP</p>
+                   <p>金卡VIP</p>
+                   <p>银卡VIP</p>
+               </div>
+               <span>手机号</span><i style="margin-left: 15%;"></i>
+               <div>
+                   <input type="text" name="" id=""/>
+               </div>
+           </div>
+       </div>
+   </header>
+   <div class="title_list limit">
+       <span>本月</span>
+       <p>收入 ￥4,000.00</p>
+   </div>
+   <div class="order_list pingjia">
+     <ul>
+       <li>
+         <div class="second tongji">
+           <div class="zuobian zuobian-touxiang zb">
+             <div><img src="images/dingdan.png" alt=""/></div>
+             <div>
+               <h1>我就是我 <em class="org">(普通VIP)</em></h1>
+               <div class="pj">
+                   <p>ID：15732456987</p>
+                   <p>注册时间：2019-01-01</p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </li>
+       <li>
+         <div class="second tongji">
+           <div class="zuobian zuobian-touxiang zb">
+             <div><img src="images/dingdan.png" alt=""/></div>
+             <div>
+               <h1>我就是我 <em class="org">(普通VIP)</em></h1>
+               <div class="pj">
+                   <p>ID：15732456987</p>
+                   <p>注册时间：2019-01-01</p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </li>
+       <li>
+         <div class="second tongji">
+           <div class="zuobian zuobian-touxiang zb">
+             <div><img src="images/dingdan.png" alt=""/></div>
+             <div>
+               <h1>我就是我 <em class="org">(普通VIP)</em></h1>
+               <div class="pj">
+                   <p>ID：15732456987</p>
+                   <p>注册时间：2019-01-01</p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </li>
+       <li>
+         <div class="second tongji">
+           <div class="zuobian zuobian-touxiang zb">
+             <div><img src="images/dingdan.png" alt=""/></div>
+             <div>
+               <h1>我就是我 <em class="org">(普通VIP)</em></h1>
+               <div class="pj">
+                   <p>ID：15732456987</p>
+                   <p>注册时间：2019-01-01</p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </li>
+       <li>
+         <div class="second tongji">
+           <div class="zuobian zuobian-touxiang zb">
+             <div><img src="images/dingdan.png" alt=""/></div>
+             <div>
+               <h1>我就是我 <em class="org">(普通VIP)</em></h1>
+               <div class="pj">
+                   <p>ID：15732456987</p>
+                   <p>注册时间：2019-01-01</p>
+               </div>
+             </div>
+           </div>
+         </div>
+       </li>
+     </ul>
+   </div>
+ </body>
+ <script>
+     $(function(){
+
+         $('#sj').click(function(e){
+//        var _con = $('.yj-detail');   // 设置目标区域
+//        if(!_con.is(e.target) && _con.has(e.target).length === 0){
+//            $('#sj').addClass('active');
+             $('.aaa').toggle(500);
+//        }
+         });
+         $('.yj-detail>div p').click(function () {
+             $(this).addClass('active')
+                     .siblings().removeClass('active');
+         })
+     })
+
+ </script>
+</html>

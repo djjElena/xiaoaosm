@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <title>医疗团队-医生详情-预约</title>
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_911409_xouf4l0ivg.css">
+    <link rel="stylesheet" href="css/headfoot.css">
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/second.css">
+    <link rel="stylesheet" href="css/weui.css">
+    <link rel="stylesheet" href="css/weui.min.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/gg.css"/>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+            new WOW().init();
+        }
+    </script>
+</head>
+<body>
+<!--头部部分-->
+<div class="ding">
+    <!-- 导航部分-->
+    <div class="navs">
+        <script>$(".navs").load("head.html");</script>
+    </div>
+</div>
+<div class="expert-newHome">
+    <div class="basic-info">
+        <div class="content-wrap">
+            <div class="txts">
+                <div class="mingcheng">
+                    <span class="name">刘毅</span>
+                    <span>首席医生</span>
+                </div>
+
+                <div class="eval">
+                    <span>励志语录：人的成熟不是年龄，而是懂得了放弃，学会了圆融</span>
+                </div>
+            </div>
+            <img src="images/doctor-detail/touxiang.png" class="imge">
+        </div>
+    </div>
+    <div class="work-info">
+        <div class="content-wrap">
+            <div class="aa">
+                <span>
+                    <a href="#">
+                        <span>持证年限</span><br/>
+                        <span>3</span>
+                    </a>
+                </span>
+                <span>
+                    <a href="#">
+                        <span>帮助人数</span><br/>
+                        <span>234568</span>
+                    </a>
+                </span>
+                <span>
+                    <a href="#">
+                        <span>资询</span><br/>
+                        <span>8453</span>
+                    </a>
+                </span>
+            </div>
+            <!--<div class="help-info">-->
+                <!--<a class="btn" href="#">立即预约</a>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <div class="expert-intro book">
+        <div class="content-wrap">
+            <div class="left">
+                <div class="tt_progress">
+                    <ul>
+                        <li>
+                            <span>1</span> &nbsp;&nbsp;
+                            <span>填写订单</span>
+                        </li>
+                        <li class="complete">
+                            <span>2</span> &nbsp;&nbsp;
+                            <span>付款</span>
+                        </li>
+                        <li>
+                            <span>3</span> &nbsp;&nbsp;
+                            <span>评价</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="personal-intro intro-time yuyue">
+
+                    <div class="dan-zf">
+                        <h1 class="tt">选择付款方式:</h1>
+                        <div class="d-zf">
+                        <span class=""><img src="images/doctor-detail/js-zfb.jpg" alt="">
+                            <i></i>
+                        </span>
+                        <span class="active"><img src="images/doctor-detail/js-wx.jpg" alt="">
+                            <i></i>
+                        </span>
+                        <span>会员免费支付
+                            <i></i>
+                        </span>
+                        </div>
+                        <h1 class="tt">结算信息:</h1>
+                        <h4>总额：<span>￥230.00</span></h4>
+                        <a href="#">去付款</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--页尾-->
+<div class="foots">
+    <script>$(".foots").load("foot.html");</script>
+</div>
+<script>
+    $(function() {
+//        展示和收起js
+        function b(){
+            $('.show-more a').click('a',function(){
+                function a(){
+                    if($('.hideArea').is(':visible')==false){
+                        $('.show-more a').html('收起')
+                    } if($('.hideArea').is(':visible')==true){
+                        $('.show-more a').html('展示全部')
+                    }
+                }a();
+                $('.hideArea').toggle(400);
+            })
+        } b()
+        })
+</script>
+<script>
+    $('.zx-time li  a').click(function(){
+        var isBusy=$(this).attr("data-busy");
+        if(isBusy==0){
+            return false;
+        }
+        $('.zx-time li  a').removeClass('active');
+        $(this).addClass('active');
+        $('input#booking_time').val($(this).attr('data-time'));
+    });
+    $('.order_callendar_list .item a').click(function(){
+        var isBusy=$(this).attr("data-busy");
+        if(isBusy==0){
+            return false;
+        }
+        $('.order_callendar_list .item a').removeClass('active');
+        $(this).addClass('active');
+        $('input#booking_time').val($(this).attr('data-time'));
+    });
+    $(".pers-img").click(function () {
+        $("#bounce").show(300);
+        $('.bounce ul li a').click(function(){
+            $(this).addClass('active')
+        })
+    });
+    $('.miss').click(function(){
+        $('.bounce').hide(300);
+    });
+    $(".pres-time").click(function () {
+        $(".zx-time").show(300);
+    });
+    $('.time-close').click(function(){
+        $('.zx-time').hide(300);
+    });
+</script>
+</body>
+</html>

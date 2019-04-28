@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <title>登录</title>
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_911409_492rlx0tmsr.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login-register.css">
+    <link rel="stylesheet" href="css/headfoot.css">
+    <link rel="stylesheet" href="css/h.css">
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.js"></script>
+</head>
+<body>
+<!-- 登录-->
+<div class="exam">
+    <div class="login">
+        <div>
+            <img src="images/logo.ico" alt=""/>
+            <p>笑傲斯麦口腔后台管理系统</p>
+        </div>
+        <form action="" class="zhuc">
+            <ul>
+                <li>
+                    <div class="role">
+                        <i class="iconfont  icon-mingpian1"></i>
+                        <select name="" id="">
+                            <option value="">管家</option>
+                            <option value="">医生</option>
+                            <option value="">护士</option>
+                            <option value="">普通会员</option>
+                        </select>
+                        <!--<i class="iconfont icon-jiantou" id="jiantou"></i>-->
+                    </div>
+                </li>
+                <li>
+                    <div class="count">
+                        <i class="iconfont  icon-gerenyonghutouxiang"></i>
+                        <input type="text" placeholder="请输入您的账号" autocomplete="off"/>
+                        <i class="iconfont icon-webicon309"></i>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <i class="iconfont  icon-mima"></i>
+                        <input type="password" placeholder="请输入您的密码" autocomplete="off"/>
+                    </div>
+
+                </li>
+
+                <li class="login-btn">
+                    <input type="button" value="登录"/>
+                </li>
+                <li class="zhaohuizhuce">
+                    <a href="#">快速注册</a> <a href="#">忘记密码</a>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+<!--底部-->
+<div class="foots">
+    <script>
+        $(".foots").load("foot.html");
+    </script>
+</div>
+<script>
+    $('.count i:last-child').click(function(){
+        $('.count>input').val("");
+    })
+</script>
+<script>
+    $('#jiantou').click(function(e){
+        $(this).prev().show();
+    })
+</script>
+</body>
+</html>
